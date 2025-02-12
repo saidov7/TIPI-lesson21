@@ -278,33 +278,33 @@ body{
         padding-bottom: 20px;
         text-decoration: underline;
         font-weight: 500;
-        font-size: 29.91px;
+        font-size: 28.91px;
     }
 }
 .sem{
-    width: 320px;
-    height: 435px;
+    width: 300px;
+    height: 380px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
     h3{
         padding: 2px 20px;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 30.99px;
+        font-size: 20px;
+        line-height: 24.99px;
     }
     p{
         cursor: pointer;
         padding: 3px 20px;
         font-weight: 500;
-        font-size: 20px;
-        line-height: 22.99px;
+        font-size: 17px;
+        line-height: 19.99px;
         letter-spacing: 0%;
         padding-top: 40px;
     }
     span{
         padding: 2px 20px;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 22.99px;
+        font-size: 17px;
+        line-height: 18.99px;
         opacity: 50%;
 
     }
@@ -313,7 +313,7 @@ body{
 .cont5{
     margin-top: 110px;
     margin-bottom: 110px;
-    width: 1319px;
+    width: 1282px;
     height: 531px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
