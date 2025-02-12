@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 body{
     font-family: "Atkinson Hyperlegible Next", serif;
 
@@ -280,6 +281,10 @@ body{
         font-size: 28.91px;
     }
 }
+.ikkalasi{
+    gap: 25px !important;
+
+}
 .sem{
     width: 300px;
     height: 380px;
@@ -515,10 +520,25 @@ body{
         width: 40%;
         padding-left: 20px;
     }
+    .pas{
+        img{
+            width: 1000px !important;
+            height: 430px !important; 
+        }
+    }
 }
-@media (max-width: 1024px){
+@media (max-width: 1050px){
+    .axa1{
+        width: 90%;
+    }
+    .menu ul li a{
+        font-size: 11px !important;
+    }
+    .menus ul li a{
+        font-size: 15px !important;
+    }
     .pas img{
-        width: 1019px !important;
+        width: 819px !important;
     }
     .gog{
         margin-top: 0px;
@@ -535,7 +555,14 @@ body{
         height: 570px;
     }
 }
-@media (max-width: 768px){
+
+@media (max-width: 850px){
+    .tep{
+        h1{
+            font-size: 40px !important; 
+            line-height: 42px !important;
+        }
+    }
     .menu {
         display: none;
     }
@@ -615,6 +642,9 @@ body{
     }
 }
 @media (max-width: 685px){
+    .ot{
+        flex-direction: column;
+    }
     .cont1{
         .tep{
             h1{
@@ -632,6 +662,53 @@ body{
         height: 30px !important;
         font-size: 12px !important;
     }
+    .cont5{
+
+        width: 517px !important;
+        height: 549px !important;
+    }
+}
+@media (max-width: 585px){
+    .axa1{
+        width: 90%;
+    }
+    .ikktain {
+        input {
+            width: 100% !important;
+            height: 34px !important;
+        }
+    }
+    
+    .ot{
+        flex-direction: column;
+    }
+    .cont1{
+        .tep{
+            h1{
+                font-size: 31px !important; 
+                line-height: 33px !important;
+            }
+        }
+    }
+    h2{
+        font-size: 25px !important; 
+    }
+    p{
+        font-size: 17px !important;
+    }
+    .pas img{
+        width: 420px !important;
+        height: 150px !important;
+    }
+    button{
+        width: 80px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+    .cont5{
+        width: 410px !important;
+        height: 565px !important;
+    }
 }
 @media (max-width: 486px){
     .ot{
@@ -640,7 +717,7 @@ body{
     .cont5{
         justify-content: center;
         flex-direction: column;
-        width: 470px !important;
+        width: 340px !important;
         height: 500px;
         .ikktain{
             display: flex;
@@ -696,7 +773,7 @@ body{
     .cont5{
         justify-content: center;
         flex-direction: column;
-        width: 370px !important;
+        width: 310px !important;
         height: 500px;
         .ikktain{
             display: flex;
@@ -717,19 +794,37 @@ body{
             line-height: 14px;
         }
     }
+
 }
-@media (max-width: 391px){
+@media (max-width: 395px){
+
+    .container{
+        padding-left: 50px;
+    }
+    .cont1{
+        .tep{
+            h1 {
+                font-size: 20px !important;
+                line-height: 25px !important;
+            }
+        }
+    }
     .til{
         display: none;
     }
+    .logo{
+        img{
+            width: 100px !important;
+        }
+    }
+
     button{
-        width: 80px !important;
-        font-size: 12px !important;
+        display: none;
     }
     .cont5{
         justify-content: center;
         flex-direction: column;
-        width: 360px !important;
+        width: 300px !important;
         height: 500px;
         .ikktain{
             display: flex;
@@ -739,12 +834,28 @@ body{
             }
         }
     }
-    .container1{
-        padding-left: 10px;
-        padding-right: 10px;
+    .chi p{
+        display: none;
     }
+
 }
 @media (max-width: 320px){
+    .gama-bol, .numeb {
+        width: 141px !important;
+        font-size: 12px !important;
+    }
+    h2{
+        font-size: 13px !important;
+    }
+    p{
+        font-size: 11px !important;
+    }
+    .pas{
+        img{
+            width: 290px !important;
+        }
+    }
+        
     .til{
         display: none;
     }
@@ -755,8 +866,8 @@ body{
     .cont5{
         justify-content: center;
         flex-direction: column;
-        width: 310px !important;
-        height: 500px;
+        width: 230px !important;
+        height: 385px !important;
         .ikktain{
             display: flex;
             flex-direction: column;
@@ -765,13 +876,21 @@ body{
             }
         }
     }
-    .container1{
-        padding-left: 5px;
+    .sear{
+        display: none;   
+    }
+    .nav5{
+        .container{
+            padding-left: 30px;
+        }
+    }
+    .container{
+        padding-left: 10px;
         padding-right: 5px;
     }
     .logos{
         img{
-            width: 280px;
+            width: 200px !important;
         }
     }
     .chi{
